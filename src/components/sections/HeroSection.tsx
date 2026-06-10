@@ -119,7 +119,7 @@ export default function HeroSection({ profile }: Props) {
               <span className="font-mono text-xs" style={{ color: 'var(--text2)' }}>
                 {profile?.availableForWork
                   ? 'Available for consulting'
-                  : 'Currently unavailable'
+                  : 'Currently available'
                 } · {profile?.location ?? 'Lagos, Nigeria 🇳🇬'}
               </span>
             </div>
