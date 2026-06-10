@@ -240,7 +240,7 @@ export default function HeroSection({ profile }: Props) {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+      {/* <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
         style={{ color: 'var(--text3)' }}>
         <span className="font-mono text-xs" style={{ letterSpacing: '2px' }}>SCROLL</span>
         <div style={{
@@ -248,7 +248,7 @@ export default function HeroSection({ profile }: Props) {
           background: 'linear-gradient(to bottom, var(--accent), transparent)',
           animation: 'fadeIn 2s ease-in-out infinite alternate',
         }} />
-      </div>
+      </div> */}
     </section>
   );
 }
