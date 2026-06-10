@@ -7,7 +7,7 @@ import toast from 'react-hot-toast';
 
 export function VisionSection() {
   const items = [
-    { icon: '🌍', title: '10,000 Engineers Mentored', desc: 'Training the next generation of African tech leaders' },
+    { icon: '🌍', title: 'More Engineers Mentored', desc: 'Training the next generation of African tech leaders' },
     { icon: '📖', title: 'Open Source Everything', desc: 'Freely available tools for the African dev community' },
     { icon: '🎓', title: 'Free Cloud Academy', desc: 'Democratizing AWS and cloud education across Africa' },
     { icon: '🏗️', title: 'Build. Ship. Impact.', desc: 'Systems that outlive us and serve millions' },
@@ -57,7 +57,7 @@ export default function ContactSection() {
     setLoading(true);
     try {
       await createContactRequest(form);
-      toast.success('Message sent! I'll get back to you within 24 hours.');
+      toast.success('Message sent! I\'ll get back to you within 24 hours.');
       setForm({ name: '', email: '', type: 'project', message: '' });
     } catch {
       toast.error('Failed to send. Please try emailing me directly.');

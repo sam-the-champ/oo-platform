@@ -218,7 +218,7 @@ export default function HeroSection({ profile }: Props) {
             {/* Floating chips */}
             {[
               { label: 'AWS Certified', color: '#f5a623', top: 10,  right: -24 },
-              { label: `${profile?.yearsExp ?? 7}+ Years`, color: '#00e5ff', bottom: 60, left: -30 },
+              { label: `${profile?.yearsExp ?? 4}+ Years`, color: '#00e5ff', bottom: 60, left: -30 },
               { label: 'Lagos, NG 🇳🇬', color: '#a855f7', bottom: -8, right: 0 },
             ].map(chip => (
               <div key={chip.label} style={{
